@@ -26,15 +26,20 @@ export default function ExperienceCard({ cardInfo, isDark }) {
         <div className="experience-div-company">
           <h5 className="experience-text-company">{cardInfo.company}</h5>
         </div>
-        
+
         <img crossOrigin={"anonymous"} ref={imgRef} className="experience-roundedimg" src={cardInfo.companylogo} alt={cardInfo.company} onLoad={() => getColorArrays()}/>
       </div>
       <div className="experience-text-details">
         <h5 className={isDark ? "experience-text-role dark-mode-text":"experience-text-role"}>{cardInfo.role}</h5>
         <h5 className={isDark ? "experience-text-date dark-mode-text":"experience-text-date"}>{cardInfo.date}</h5>
         <p className={isDark ? "subTitle experience-text-desc dark-mode-text":"subTitle experience-text-desc"}>{cardInfo.desc}</p>
+        <p> {cardInfo.daily} </p>
         <ul>
-          <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
+          <GetDescBullets descBullets={cardInfo.dailyBullets} isDark={isDark} />
+        </ul>
+        <p> {cardInfo.tools} </p>
+        <ul>
+          <GetDescBullets descBullets={cardInfo.toolsBullets} isDark={isDark} />
         </ul>
       </div>
     </div>

@@ -1,4 +1,4 @@
-.meter { 
+.meter {
     height: 20px;
     position: relative;
     background: rgb(243, 239, 239);
@@ -13,7 +13,7 @@
     border-bottom-right-radius: 6px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    background-color: #aaa5ff;
+    background-color: #512aa3;
     position: relative;
     overflow: hidden;
 }
@@ -37,8 +37,9 @@
 }
 .skills-image > img {
     margin-left: 80px;
-    max-width: 90%;
-    height: auto;
+    max-width: 100%;
+    height: 102%;
+    border-radius: 100px;
 }
 
 /* Media Query */
@@ -66,4 +67,3 @@
         order: 2;
     }
 }
-  

@@ -7,9 +7,9 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
+  username: "Akshat Bansal",
+  title: "Hello World!",
+  subTitle: emoji("My name is Akshat. I am a senior in Computer Science at San Jose State University. I interned at Sleep Number as a Cloud Engineer where I worked with multithreaded, performance-driven, and highly-scalable codebase. I was responsible for writing Java code to capture metrics like CPU usage, memory usage, API response times of many services that were deployed on AWS. I also built DataDog dashboards for monitoring the metrics that we captured and setting alerts for critical loads.\nI care deeply about the scalability, performance, and security of any code that I ship to production. "),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
@@ -30,12 +30,13 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "My mission",
+  subTitle: "Use my skillset to build solutions that makes a positive impact on the world",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Build highly scalable, secure, and performance-oriented backend solutions."),
+    emoji("⚡ Automate the boring stuff."),
+    emoji("⚡ Deploy with Docker and AWS for scalability."),
+    emoji("⚡ Monitor health of backend infrastructure with JMX and DataDog.")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -43,57 +44,29 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
   ]
 };
 
@@ -103,24 +76,29 @@ const educationInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      schoolName: "San Jose State University",
+      logo: require("./assets/images/sjsuLogo.png"),
+      subHeader: "Bachelors of Science in Computer Science",
+      duration: "August 2017 - Present",
+      gpa: "3.7/4.0",
+      awards: "Honors and awards:",
+      awardsBullets: [
+        "Dean's scholar 2017",
+        "President's scholar 2018",
+        "Dean's scholar 2019",
+        "Part of the Phi Kappa Phi honor society (Top 10% of the 2021 class)"
+      ],
+      coursework: "Some of the interesting classes that I took: ",
+      courseworkBullets: [
+        "Data structures and algorithms",
+        "Object-oriented design",
+        "Operating systems",
+        "Database management systems",
+        "Server-side programming",
+        "Information security",
+        "Software engineering",
+        "Advanced programming in C++",
+        "Advanced topics in Machine Learning"
       ]
     }
   ]
@@ -132,16 +110,24 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "Backend",  //Insert stack or technology you have experience in
+      progressPercentage: "75%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
+      Stack: "Natural Language Processing",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "Automation",
+      progressPercentage: "40%"
+    },
+    {
+      Stack: "Testing",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Cloud operations",
+      progressPercentage: "70%"
     }
   ]
 };
@@ -153,30 +139,33 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Cloud Engineering Intern",
+      company: "Sleep Number",
+      companylogo: require("./assets/images/SNLogo.png"),
+      date: "October 2020 – December 2020",
+      desc: "My project this fall involved reporting metrics for different microservices to DataDog and setting up triggers for  abnormal events like high CPU load, memory usage, etc. Apart from these common metrics, we also had different KPIs defined for different microservices. For example, for the database manager service one of the KPI was the persistence latency between when a message is generated and when it is persisted in the database.",
+      daily: "My workflow throughout the week:",
+      dailyBullets: [
+        "Meet with mentor to clarify exactly what metrics we are trying to capture.",
+        "Document these metrics in Confluence and get the naming reviewed.",
+        "Meet with team and implement the metrics in code and raise PR.",
+        "Meet with mentor to deploy the code on test environment.",
+        "Make DataDog dashboards for the captured metrics.",
+        "Send dashboard links to QA."
+      ],
+      tools: "Throughout the internship, I got hands-on experience with:",
+      toolsBullets:[
+        "AWS for our microservices architecture.",
+        "DataDog for infrastructure monitoring.",
+        "Jira for progress tracking.",
+        "Confluence for documentation.",
+        "Sumo logic for error logging."
+      ],
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+    }
   ]
 };
 
