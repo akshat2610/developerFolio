@@ -16,15 +16,9 @@ const greeting = {
 // Your Social Media Link
 
 const socialMediaLinks = {
-
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
-  // Instagram and Twitter are also supported in the links!
+  github: "https://github.com/akshat2610",
+  linkedin: "https://www.linkedin.com/in/-akshat-bansal/",
+  gmail: "akshat2610@gmail.com",
 };
 
 // Your Skills Section
@@ -189,7 +183,8 @@ const projects = {
         "Compare preprocessed keywords and preprocessed transcript to save relevant timestamps.",
         "Clips the video according to the collected timestamps.",
         "Exports the summary video by concatenating the subclips."
-      ]
+      ],
+      link: "https://github.com/akshat2610/Video-summary-project"
     },
     {
       desc: "Helps manage personal and work related tasks",
@@ -211,7 +206,8 @@ const projects = {
         "Uses custom algorithm to come up with a plan that maximizes the score.",
         "Visualizes weekly workload to help make informed decisions about time commitments",
         "Visualizes hours spent on different activities and events to help minimize bad habits and maximize good habits."
-      ]
+      ],
+      link: "https://github.com/akshat2610/Planner"
     },
     {
       desc: "Scrapes LinkedIn jobs and identifies hot skills.",
@@ -232,7 +228,8 @@ const projects = {
         "Writes the collected infromation to an excel file.",
         "Creates a dictionary to store the frequency counts of relevant keywords",
         "Plots skill vs frequency.",
-      ]
+      ],
+      link: "https://github.com/akshat2610/LinkedIn-Automation-Scraping-and-Analysis"
     }
   ]
 };

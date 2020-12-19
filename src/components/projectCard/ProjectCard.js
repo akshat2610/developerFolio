@@ -1,5 +1,6 @@
 import React, { useState, useEffect, createRef } from "react";
 import "./ProjectCard.css";
+import Button from "../button/Button"
 import ColorThief from "colorthief";
 
 export default function ProjectCard({ cardInfo, isDark }) {
@@ -41,6 +42,7 @@ export default function ProjectCard({ cardInfo, isDark }) {
         <ul>
           <GetDescBullets descBullets={cardInfo.workingBullets} isDark={isDark} />
         </ul>
+        <Button text="GitHub" href={cardInfo.link} newTab="true"/>
       </div>
     </div>
   );

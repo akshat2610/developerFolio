@@ -37,6 +37,9 @@ function Header() {
             <a href="#skills">Skills</a>
           </li>
           <li>
+            <a href="#project">Projects</a>
+          </li>
+          <li>
             <a href="#contact">Contact Me</a>
           </li>
           <li>
