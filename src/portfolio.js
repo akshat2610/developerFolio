@@ -10,7 +10,7 @@ const greeting = {
   username: "Akshat Bansal",
   title: "Hello World!",
   subTitle: emoji("My name is Akshat. I am a senior in Computer Science at San Jose State University. I interned at Sleep Number as a Cloud Engineer where I worked with multithreaded, performance-driven, and highly-scalable codebase. I was responsible for writing Java code to capture metrics like CPU usage, memory usage, API response times of many services that were deployed on AWS. I also built DataDog dashboards for monitoring the metrics that we captured and setting alerts for critical loads.\nI care deeply about the scalability, performance, and security of any code that I ship to production. "),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1x7pntquAFCT6HyMuHEMN8XvwO5Z8IbDl/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -234,32 +234,9 @@ const projects = {
   ]
 };
 
-
-// Some Big Projects You have worked with your company
-
-const bigProjects = {
-  title: "Projects",
-  subtitle: "Some of the cool projects I built",
-  projects: [
-    {
-      title: "summarAIze",
-      image: require("./assets/images/summarAIzeLogo.png"),
-      link: "http://saayahealth.com/"
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
-    }
-  ]
-};
-
-// Your Achievement Section Include Your Certification Talks and More
-
-//Twitter Section
-
 const contactInfo = {
-  title: emoji("Contact Me"),
-  subtitle: "Say Hi! I am always open for discussing a project or having a deep philosophical conversation",
+  title: emoji("Lets connect!"),
+  subtitle: "I am always open for discussing a project or having a deeply philosophical conversation.",
   number: "+1-408-688-4846",
   email_address: "akshat2610@gmail.com"
 };

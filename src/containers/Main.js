@@ -23,6 +23,7 @@ export default class Main extends Component {
 
   componentDidMount() {
     const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
+    document.title = "Akshat Bansal";
     this.setState({ isDark: darkPref.matches });
   }
   changeTheme = () => {
