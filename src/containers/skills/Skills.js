@@ -14,7 +14,7 @@ export default function Skills() {
           <div className="skills-image-div">
             <img
               alt="Saad Working"
-              src={require("../../assets/images/falconLogo.jpg")}
+              src={require("../../assets/images/codeLogo.png")}
             ></img>
           </div>
         </Fade>
@@ -35,10 +35,10 @@ export default function Skills() {
               {skillsSection.subTitle}
             </p>
             <SoftwareSkill />
-            <div>
+            <div className="skills-text">
               {skillsSection.skills.map((skills) => {
                 return (
-                  <p
+                  <p id="subTitleText"
                     className={
                       isDark
                         ? "dark-mode subTitle skills-text"

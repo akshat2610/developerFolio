@@ -33,11 +33,11 @@ export default function ExperienceCard({ cardInfo, isDark }) {
         <h5 className={isDark ? "experience-text-role dark-mode-text":"experience-text-role"}>{cardInfo.role}</h5>
         <h5 className={isDark ? "experience-text-date dark-mode-text":"experience-text-date"}>{cardInfo.date}</h5>
         <p className={isDark ? "subTitle experience-text-desc dark-mode-text":"subTitle experience-text-desc"}>{cardInfo.desc}</p>
-        <p> {cardInfo.daily} </p>
+        <p className="bullet-header"> {cardInfo.daily} </p>
         <ul>
           <GetDescBullets descBullets={cardInfo.dailyBullets} isDark={isDark} />
         </ul>
-        <p> {cardInfo.tools} </p>
+        <p className="bullet-header"> {cardInfo.tools} </p>
         <ul>
           <GetDescBullets descBullets={cardInfo.toolsBullets} isDark={isDark} />
         </ul>

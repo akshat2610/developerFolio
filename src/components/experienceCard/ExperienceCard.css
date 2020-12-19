@@ -14,10 +14,18 @@
     border: 1px solid rgba(211, 211, 211, 0.397);
 }
 
-.experience-card:hover {
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+.experience-card-dark:hover {
+    transform: scale(1.04);
 }
 
+.experience-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+    transform: scale(1.04);
+}
+
+.bullet-header{
+  font-size: 23px;
+}
 .experience-banner {
     background-position: center;
     background-repeat: no-repeat;

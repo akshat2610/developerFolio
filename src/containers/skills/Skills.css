@@ -12,8 +12,8 @@
 }
 
 .skills-image-div > img {
-  max-width: 100%;
-  height: auto;
+  max-width: 110%;
+  height: 105%;
   border-radius: 100px;
 }
 
@@ -23,6 +23,11 @@
 }
 .subTitle {
   color: #868e96;
+}
+
+.skills-text{
+  font-size: 23px;
+  line-height: 1.2;
 }
 
 /* Media Query */
@@ -51,7 +56,6 @@
     font-size: 16px;
   }
   .skills-text-subtitle {
-    font-size: 16px;
     text-align: center;
   }
   .skills-image-div {

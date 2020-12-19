@@ -39,6 +39,12 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem 1rem;
 }
+
+.achievement-cards-div img {
+  border-radius: 25px;
+  height: 50%;
+  width: 75%;
+}
 .certificate-card-footer {
   display: flex;
   align-items: center;
