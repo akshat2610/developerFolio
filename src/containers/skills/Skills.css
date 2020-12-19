@@ -12,9 +12,12 @@
 }
 
 .skills-image-div > img {
-  max-width: 110%;
-  height: 105%;
+  width: 100%;
+  height: 100%;
   border-radius: 100px;
+}
+.skills-image-div > img:hover{
+  transform: scale(1.2);
 }
 
 .skills-heading {

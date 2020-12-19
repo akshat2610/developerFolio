@@ -1,35 +1,34 @@
 import React, {useContext} from "react";
 import "./Project.css";
-import ExperienceCard from "../../components/experienceCard/ExperienceCard";
+import ProjectCard from "../../components/projectCard/ProjectCard";
 import { projects } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function WorkExperience() {
+export default function Project() {
     const {isDark} = useContext(StyleContext)
-    if(projects.viewExperiences){
+    if(projects.viewProjects){
         return (
-            <div id="experience">
+            <div id="project">
                 <Fade bottom duration={1000} distance="20px">
-                <div className="experience-container" id="workExperience">
+                <div className="project-container" id="workproject">
                     <div>
-                        <h1 className="experience-heading">Projects</h1>
-                        <div className="experience-cards-div">
-                        {projects.experience.map((card) => {
+                        <h1 className="project-heading">Projects</h1>
+                        <div className="project-cards-div">
+                        {projects.project.map((card) => {
                             return (
-                                <ExperienceCard
+                                <ProjectCard
                                     isDark={isDark}
                                     cardInfo={{
-                                        company: card.company,
-                                        desc: card.desc,
+                                        name: card.name,
+                                        problemStatement: card.problemStatement,
                                         date: card.date,
-                                        companylogo: card.companylogo,
-                                        role: card.role,
-                                        daily: card.daily,
-                                        dailyBullets: card.dailyBullets,
-                                        tools: card.tools,
-                                        toolsBullets: card.toolsBullets,
-                                        descBullets: card.descBullets
+                                        projectLogo: card.projectLogo,
+                                        desc: card.desc,
+                                        usage: card.usage,
+                                        usageBullets: card.usageBullets,
+                                        working: card.working,
+                                        workingBullets: card.workingBullets
                                     }}
                                 />
                             );
