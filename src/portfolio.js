@@ -19,6 +19,7 @@ const socialMediaLinks = {
   github: "https://github.com/akshat2610",
   linkedin: "https://www.linkedin.com/in/-akshat-bansal/",
   gmail: "akshat2610@gmail.com",
+  hackerrank: "https://www.hackerrank.com/akshat2610"
 };
 
 // Your Skills Section

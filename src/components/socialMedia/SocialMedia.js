@@ -30,6 +30,14 @@ export default function socialMedia() {
       :
       null}
 
+      {socialMediaLinks.hackerrank ?
+      <a href={socialMediaLinks.hackerrank} className="icon-button hackerrank" target="_blank">
+        <i className="fab fa-hackerrank"></i>
+        <span></span>
+      </a>
+      :
+      null}
+
     </div>
   );
 }
